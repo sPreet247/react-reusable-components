@@ -1,10 +1,11 @@
 import './App.css';
-import Button from './components/Button/Button.js';
+// import Button from './components/Button/Button.js';
+import { ButtonDefault } from './components/Button/ButtonElements';
 
 function App() {
   return (
-    <div>
-      <Button className='Default-light'>Default</Button>
+    <div className='Default-light'>
+      <ButtonDefault>Default</ButtonDefault>
     </div>
   );
 }
