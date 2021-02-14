@@ -1,23 +1,17 @@
 import {
   ButtonDefault,
-  InnerText,
-  NewButtonDefault,
-  NewOutlineButton,
-  NewTextButton,
-  OutlineButton,
-  TextButton,
+  Heading,
+  HeadingText,
 } from './components/Button/ButtonElements';
 
 function App() {
   return (
     <>
+      <Heading>Buttons</Heading>
+      <HeadingText>
+        <code>&lt;Button/&gt;</code>
+      </HeadingText>
       <ButtonDefault>Default</ButtonDefault>
-      <NewButtonDefault>Default</NewButtonDefault>
-      <OutlineButton>Default</OutlineButton>
-      <NewOutlineButton>Default</NewOutlineButton>
-      <TextButton>Default</TextButton>
-      <NewTextButton></NewTextButton>
-      <InnerText>Default</InnerText>
     </>
   );
 }
