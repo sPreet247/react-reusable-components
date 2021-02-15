@@ -1,7 +1,8 @@
 import {
-  ButtonDefault,
+  BtnDefault,
   Heading,
   HeadingText,
+  HoverText,
 } from './components/Button/ButtonElements';
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
       <HeadingText>
         <code>&lt;Button/&gt;</code>
       </HeadingText>
-      <ButtonDefault>Default</ButtonDefault>
+      <BtnDefault>Default</BtnDefault>
+      <HoverText>
+        <code>&:hover,&:focus</code>
+      </HoverText>
     </>
   );
 }

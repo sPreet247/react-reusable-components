@@ -19,13 +19,12 @@ export const Heading = styled.h1`
   color: #4f4f4f;
 `;
 
-export const HeadingText = styled.p`
+export const HeadingText = styled.code`
   position: absolute;
-  width: 60px;
-  height: 12px;
   left: 319px;
   top: 117px;
-
+  width: 60px;
+  height: 12px;
   font-family: Ubuntu Mono;
   font-style: normal;
   font-weight: normal;
@@ -42,7 +41,8 @@ export const BtnDefault = styled.button`
   position: absolute;
   width: 81px;
   height: 36px;
-
+  left: 319px;
+  top: 149px;
   background: rgb(224, 224, 224);
   color: rgb(63, 63, 63);
   border: none;
@@ -55,7 +55,7 @@ export const BtnDefault = styled.button`
   cursor: pointer;
 `;
 
-export const ButtonDefault = styled(BtnDefault)`
-  left: 335px;
-  top: 149px;
+export const HoverText = styled(HeadingText)`
+  left: 555px;
+  top: 117px;
 `;
