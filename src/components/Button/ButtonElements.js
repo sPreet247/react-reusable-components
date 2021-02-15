@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { colors } from './global.js';
 
 export const Heading = styled.h1`
   position: absolute;
@@ -43,8 +44,7 @@ export const BtnDefault = styled.button`
   height: 36px;
   left: 319px;
   top: 149px;
-  background: rgb(224, 224, 224);
-  color: rgb(63, 63, 63);
+
   border: none;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 500;
@@ -53,9 +53,12 @@ export const BtnDefault = styled.button`
   box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
   border-radius: 6px;
   cursor: pointer;
-`;
 
-export const HoverText = styled(HeadingText)`
-  left: 555px;
-  top: 117px;
+  ${(props) =>
+    props.default &&
+    css`
+      background: ${colors.default};
+      left: 319px;
+      top: 149px;
+    `}
 `;

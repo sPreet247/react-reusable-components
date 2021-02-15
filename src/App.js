@@ -2,7 +2,6 @@ import {
   BtnDefault,
   Heading,
   HeadingText,
-  HoverText,
 } from './components/Button/ButtonElements';
 
 function App() {
@@ -12,10 +11,10 @@ function App() {
       <HeadingText>
         <code>&lt;Button/&gt;</code>
       </HeadingText>
+      <BtnDefault default>Default</BtnDefault>
       <BtnDefault>Default</BtnDefault>
-      <HoverText>
-        <code>&:hover,&:focus</code>
-      </HoverText>
+      <BtnDefault>Default</BtnDefault>
+      <BtnDefault>Default</BtnDefault>
     </>
   );
 }
