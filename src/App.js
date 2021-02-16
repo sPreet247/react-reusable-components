@@ -12,9 +12,8 @@ function App() {
         <code>&lt;Button/&gt;</code>
       </HeadingText>
       <BtnDefault default>Default</BtnDefault>
-      <BtnDefault>Default</BtnDefault>
-      <BtnDefault>Default</BtnDefault>
-      <BtnDefault>Default</BtnDefault>
+      <BtnDefault default2>Default</BtnDefault>
+      <BtnDefault outline2>Default</BtnDefault>
     </>
   );
 }
