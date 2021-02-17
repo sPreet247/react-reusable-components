@@ -42,9 +42,10 @@ export const BtnDefault = styled.button`
   position: absolute;
   width: 81px;
   height: 36px;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   border: none;
   font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -59,9 +60,6 @@ export const BtnDefault = styled.button`
       background: ${colors.default};
       left: 319px;
       top: 149px;
-      &:hover {
-        background: ${colors.hover.default};
-      }
     `}
   ${(props) =>
     props.default2 &&
@@ -69,15 +67,44 @@ export const BtnDefault = styled.button`
       background: rgb(174, 174, 174);
       left: 555px;
       top: 149px;
+
+      &:hover {
+        background: ${colors.color.default};
+      }
+    `}
+
+    ${(props) =>
+    props.outline &&
+    css`
+      left: 319px;
+      top: 246px;
+      border: 1px solid #3d5afe;
+      color: #3d5afe;
     `}
 
     ${(props) =>
     props.outline2 &&
     css`
-      background: 'white';
+      background: rgba(41, 98, 255, 0.1);
       border: 1px solid #3d5afe;
       left: 555px;
       top: 246px;
       color: #3d5afe;
+    `}
+    
+    ${(props) =>
+    props.text &&
+    css`
+      left: 319px;
+      top: 357px;
+      color: #3d5afe;
+    `}
+    ${(props) =>
+    props.text2 &&
+    css`
+      left: 555px;
+      top: 351px;
+      color: #3d5afe;
+      background: rgba(41, 98, 255, 0.1);
     `}
 `;
