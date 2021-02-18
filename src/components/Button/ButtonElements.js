@@ -43,13 +43,14 @@ export const BtnDefault = styled.button`
   width: 81px;
   height: 36px;
   /* padding: 0.5rem 1rem; */
+  background: inherit;
   border: none;
   font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+
   border-radius: 6px;
   cursor: pointer;
   text-align: center;
@@ -57,9 +58,10 @@ export const BtnDefault = styled.button`
   ${(props) =>
     props.default &&
     css`
-      background: ${colors.default};
+      background: #e0e0e0;
       left: 319px;
       top: 149px;
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
     `}
   ${(props) =>
     props.default2 &&
@@ -67,7 +69,7 @@ export const BtnDefault = styled.button`
       background: rgb(174, 174, 174);
       left: 555px;
       top: 149px;
-
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
       &:hover {
         background: ${colors.color.default};
       }
@@ -80,6 +82,7 @@ export const BtnDefault = styled.button`
       top: 246px;
       border: 1px solid #3d5afe;
       color: #3d5afe;
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
     `}
 
     ${(props) =>
@@ -90,6 +93,7 @@ export const BtnDefault = styled.button`
       left: 555px;
       top: 246px;
       color: #3d5afe;
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
     `}
     
     ${(props) =>
@@ -106,5 +110,32 @@ export const BtnDefault = styled.button`
       top: 351px;
       color: #3d5afe;
       background: rgba(41, 98, 255, 0.1);
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+    `}
+
+    ${(props) =>
+    props.disabledShadow &&
+    css`
+      left: 319px;
+      top: 453px;
+      background: #3d5afe;
+      color: #fff;
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+    `}
+
+    ${(props) =>
+    props.disabled &&
+    css`
+      left: 319px;
+      top: 558px;
+      background: #e0e0e0;
+      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+    `}
+    ${(props) =>
+    props.disabledText &&
+    css`
+      left: 558px;
+      top: 566px;
+      color: #9e9e9e;
     `}
 `;

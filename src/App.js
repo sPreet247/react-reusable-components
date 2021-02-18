@@ -19,6 +19,9 @@ function App() {
         Default
       </BtnDefault>
       <BtnDefault text2>Default</BtnDefault>
+      <BtnDefault disabledShadow>Default</BtnDefault>
+      <BtnDefault disabled>Disabled</BtnDefault>
+      <BtnDefault disabledText>Disabled</BtnDefault>
     </>
   );
 }
