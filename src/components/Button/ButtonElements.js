@@ -138,4 +138,15 @@ export const BtnDefault = styled.button`
       top: 566px;
       color: #9e9e9e;
     `}
+    ${(props) =>
+    props.groceryStore &&
+    css`
+      width: 105px;
+      height: 36px;
+      left: 319px;
+      top: 663px;
+      color: #fff;
+      background: #2962ff;
+      box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    `}
 `;

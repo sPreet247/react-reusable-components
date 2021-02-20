@@ -1,3 +1,4 @@
+import AddShoppingCartOutlinedIcon from '@material-ui/icons/AddShoppingCartOutlined';
 import {
   BtnDefault,
   Heading,
@@ -22,6 +23,10 @@ function App() {
       <BtnDefault disabledShadow>Default</BtnDefault>
       <BtnDefault disabled>Disabled</BtnDefault>
       <BtnDefault disabledText>Disabled</BtnDefault>
+      <BtnDefault groceryStore>
+        <AddShoppingCartOutlinedIcon fontSize='small' />
+        Default
+      </BtnDefault>
     </>
   );
 }
