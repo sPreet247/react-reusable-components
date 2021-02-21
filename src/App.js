@@ -31,6 +31,17 @@ function App() {
         <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
+      <BtnDefault smDefault>Default</BtnDefault>
+      <BtnDefault mdDefault>Default</BtnDefault>
+      <BtnDefault lgDefault>Default</BtnDefault>
+      <BtnDefault default1New>Default</BtnDefault>
+      <BtnDefault blueDefault>Default</BtnDefault>
+      <BtnDefault secondaryDefault>Secondary</BtnDefault>
+      <BtnDefault dangerDefault>Danger</BtnDefault>
+      <BtnDefault default2New>Default</BtnDefault>
+      <BtnDefault darkBlueDefault>Default</BtnDefault>
+      <BtnDefault secondaryDarkDefault>Secondary</BtnDefault>
+      <BtnDefault dangerDarkDefault>Danger</BtnDefault>
     </>
   );
 }

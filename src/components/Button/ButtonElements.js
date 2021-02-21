@@ -161,4 +161,130 @@ export const BtnDefault = styled.button`
       background: #2962ff;
       box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
     `}
+    ${(props) =>
+    props.smDefault &&
+    css`
+      width: 73px;
+      height: 32px;
+      left: 319px;
+      top: 773px;
+      color: #fff;
+
+      background: #2962ff;
+      box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    `}
+    ${(props) =>
+    props.mdDefault &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 523px;
+      top: 771px;
+      color: #fff;
+
+      background: #2962ff;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    `}
+    ${(props) =>
+    props.lgDefault &&
+    css`
+      width: 93px;
+      height: 42px;
+      left: 731px;
+      top: 768px;
+      color: #fff;
+
+      background: #2962ff;
+      box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    `}
+    ${(props) =>
+    props.default1New &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 319px;
+      top: 879px;
+
+      background: #e0e0e0;
+      box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    `}
+    ${(props) =>
+    props.blueDefault &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 523px;
+      top: 879px;
+      color: #fff;
+      background: #2962ff;
+      box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    `}
+    ${(props) =>
+    props.secondaryDefault &&
+    css`
+      width: 104px;
+      height: 36px;
+      left: 731px;
+      top: 879px;
+      color: #fff;
+      background: #455a64;
+      box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    `}
+    ${(props) =>
+    props.dangerDefault &&
+    css`
+      height: 36px;
+      left: 971px;
+      top: 879px;
+      color: #fff;
+      background: #d32f2f;
+      box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    `}
+    ${(props) =>
+    props.default2New &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 319px;
+      top: 984px;
+
+      background: #aeaeae;
+      box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    `}
+    ${(props) =>
+    props.darkBlueDefault &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 523px;
+      top: 984px;
+
+      background: #0039cb;
+      box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+      color: #fff;
+    `}
+    ${(props) =>
+    props.secondaryDarkDefault &&
+    css`
+      width: 104px;
+      height: 36px;
+      left: 731px;
+      top: 984px;
+
+      background: #1c313a;
+      box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+      color: #fff;
+    `}
+    ${(props) =>
+    props.dangerDarkDefault &&
+    css`
+      width: 81px;
+      height: 36px;
+      left: 971px;
+      top: 984px;
+
+      background: #9a0007;
+      box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+      color: #fff;
+    `}
 `;
