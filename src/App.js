@@ -24,7 +24,11 @@ function App() {
       <BtnDefault disabled>Disabled</BtnDefault>
       <BtnDefault disabledText>Disabled</BtnDefault>
       <BtnDefault groceryStore>
-        <AddShoppingCartOutlinedIcon fontSize='small' />
+        <AddShoppingCartOutlinedIcon />
+        Default
+      </BtnDefault>
+      <BtnDefault groceryStoreRight>
+        <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
     </>
