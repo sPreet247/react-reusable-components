@@ -288,3 +288,41 @@ export const BtnDefault = styled.button`
       color: #fff;
     `}
 `;
+
+export const IconLink = styled.h4`
+  position: absolute;
+  width: 330px;
+  height: 12px;
+  left: 320px;
+  top: 1072px;
+
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+
+  /* identical to box height */
+
+  /* Gray 3 */
+  color: #828282;
+`;
+
+export const CreatorName = styled.h4`
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 322px;
+  top: 1118px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #a9a9a9;
+`;
