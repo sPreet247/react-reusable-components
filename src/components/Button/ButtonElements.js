@@ -20,24 +20,6 @@ export const Heading = styled.h1`
   color: #4f4f4f;
 `;
 
-export const HeadingText = styled.code`
-  position: absolute;
-  left: 319px;
-  top: 117px;
-  width: 60px;
-  height: 12px;
-  font-family: Ubuntu Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
-
-  /* identical to box height */
-
-  /* Gray 1 */
-  color: #333333;
-`;
-
 export const BtnDefault = styled.button`
   position: absolute;
   width: 81px;
