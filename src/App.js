@@ -1,9 +1,9 @@
 import AddShoppingCartOutlinedIcon from '@material-ui/icons/AddShoppingCartOutlined';
+import { HeadingText } from './components/Button/BtnDescription';
 import {
   BtnDefault,
   CreatorName,
   Heading,
-  HeadingText,
   IconLink,
 } from './components/Button/ButtonElements';
 
@@ -15,6 +15,9 @@ function App() {
         <code>&lt;Button/&gt;</code>
       </HeadingText>
       <BtnDefault default>Default</BtnDefault>
+      <HeadingText default2Desc>
+        <code>&:hover, &:focus</code>
+      </HeadingText>
       <BtnDefault default2>Default</BtnDefault>
       <BtnDefault outline>Default</BtnDefault>
       <BtnDefault outline2>Default</BtnDefault>
