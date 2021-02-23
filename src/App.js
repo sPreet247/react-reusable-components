@@ -19,77 +19,77 @@ function App() {
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault default2>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText outline>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault outline>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText outline2>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault outline2>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText text>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault text>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText text2>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault text2>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText disabledShadow>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault disabledShadow>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText disabled>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault disabled>Disabled</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText disabledText>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault disabledText>Disabled</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText groceryStore>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault groceryStore>
         <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText groceryStoreRight>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault groceryStoreRight>
         <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText smDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault smDefault>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText mdDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault mdDefault>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText lgDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault lgDefault>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText default1New>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault default1New>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText blueDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault blueDefault>Default</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText secondaryDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault secondaryDefault>Secondary</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText dangerDefault>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault dangerDefault>Danger</BtnDefault>
-      <HeadingText default2Desc>
+      <HeadingText default2New>
         <code>&:hover, &:focus</code>
       </HeadingText>
       <BtnDefault default2New>Default</BtnDefault>
