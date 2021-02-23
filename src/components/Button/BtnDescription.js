@@ -26,4 +26,13 @@ export const HeadingText = styled.code`
       top: 117px;
       color: #828282;
     `}
+  ${(props) =>
+    props.outline &&
+    css`
+      width: 96px;
+      height: 12px;
+      left: 555px;
+      top: 117px;
+      color: #828282;
+    `}
 `;
