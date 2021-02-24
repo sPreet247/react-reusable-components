@@ -6,10 +6,12 @@ import {
   Heading,
   IconLink,
 } from './components/Button/ButtonElements';
+import SideNavBar from './components/SideNav/SideNavBar';
 
 function App() {
   return (
     <>
+      <SideNavBar />
       <Heading>Buttons</Heading>
       <HeadingText>
         <code>&lt;Button/&gt;</code>
