@@ -15,7 +15,7 @@ export const HeadingText = styled.code`
   /* identical to box height */
 
   /* Gray 1 */
-  color: #333333;
+  color: #000000;
 
   ${(props) =>
     props.default2Desc &&

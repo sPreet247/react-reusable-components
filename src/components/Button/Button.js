@@ -15,7 +15,7 @@ function Button() {
       </HeadingText>
       <BtnDefault default2>Default</BtnDefault>
       <HeadingText outline>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button variant=”outline”/&gt;</code>
       </HeadingText>
       <BtnDefault outline>Default</BtnDefault>
       <HeadingText outline2>
@@ -23,7 +23,7 @@ function Button() {
       </HeadingText>
       <BtnDefault outline2>Default</BtnDefault>
       <HeadingText text>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button variant=”text” /&gt;</code>
       </HeadingText>
       <BtnDefault text>Default</BtnDefault>
       <HeadingText text2>
@@ -31,57 +31,57 @@ function Button() {
       </HeadingText>
       <BtnDefault text2>Default</BtnDefault>
       <HeadingText disabledShadow>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button disableShadow /&gt;</code>
       </HeadingText>
       <BtnDefault disabledShadow>Default</BtnDefault>
       <HeadingText disabled>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button disabled /&gt;</code>
       </HeadingText>
       <BtnDefault disabled>Disabled</BtnDefault>
       <HeadingText disabledText>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button variant=”text” disabled /&gt;</code>
       </HeadingText>
       <BtnDefault disabledText>Disabled</BtnDefault>
       <HeadingText groceryStore>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button startIcon=”local_grocery_store” /&gt;</code>
       </HeadingText>
       <BtnDefault groceryStore>
         <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
       <HeadingText groceryStoreRight>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button endIcon=”local_grocery_store” /&gt;</code>
       </HeadingText>
       <BtnDefault groceryStoreRight>
         <AddShoppingCartOutlinedIcon />
         Default
       </BtnDefault>
       <HeadingText smDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button size=”sm” /&gt;</code>
       </HeadingText>
       <BtnDefault smDefault>Default</BtnDefault>
       <HeadingText mdDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button size=”md” /&gt;</code>
       </HeadingText>
       <BtnDefault mdDefault>Default</BtnDefault>
       <HeadingText lgDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button size=”lg” /&gt;</code>
       </HeadingText>
       <BtnDefault lgDefault>Default</BtnDefault>
       <HeadingText default1New>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button color=”default” /&gt;</code>
       </HeadingText>
       <BtnDefault default1New>Default</BtnDefault>
       <HeadingText blueDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button color=”primary” /&gt;</code>
       </HeadingText>
       <BtnDefault blueDefault>Default</BtnDefault>
       <HeadingText secondaryDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button color=”secondary” /&gt;</code>
       </HeadingText>
       <BtnDefault secondaryDefault>Secondary</BtnDefault>
       <HeadingText dangerDefault>
-        <code>&:hover, &:focus</code>
+        <code>&lt;Button color=”danger” /&gt;</code>
       </HeadingText>
       <BtnDefault dangerDefault>Danger</BtnDefault>
       <HeadingText default2New>
