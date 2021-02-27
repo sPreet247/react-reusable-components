@@ -53,8 +53,8 @@ function Button() {
         <code>&lt;Button endIcon=”local_grocery_store” /&gt;</code>
       </HeadingText>
       <BtnDefault groceryStoreRight>
-        <AddShoppingCartOutlinedIcon />
         Default
+        <AddShoppingCartOutlinedIcon />
       </BtnDefault>
       <HeadingText smDefault>
         <code>&lt;Button size=”sm” /&gt;</code>

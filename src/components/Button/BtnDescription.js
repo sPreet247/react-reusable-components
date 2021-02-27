@@ -41,6 +41,7 @@ export const HeadingText = styled.code`
       height: 12px;
       left: 555px;
       top: 222px;
+      color: #828282;
     `}
   ${(props) =>
     props.text &&
@@ -57,6 +58,7 @@ export const HeadingText = styled.code`
       height: 12px;
       left: 555px;
       top: 327px;
+      color: #828282;
     `}
   ${(props) =>
     props.disabledShadow &&
@@ -161,5 +163,6 @@ export const HeadingText = styled.code`
       height: 12px;
       left: 319px;
       top: 960px;
+      color: #828282;
     `}
 `;
