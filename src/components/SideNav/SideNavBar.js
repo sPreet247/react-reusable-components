@@ -2,7 +2,9 @@ import { NavLink, Title } from './SideNavBarElements';
 function SideNavBar() {
   return (
     <>
-      <Title>Devchallenges.io</Title>
+      <Title>
+        Dev<span style={{ color: '#000000' }}>challenges.io</span>
+      </Title>
       <nav>
         <NavLink colors>Colors</NavLink>
         <NavLink typography>Typography</NavLink>

@@ -52,7 +52,8 @@ export const BtnDefault = styled.button`
       left: 555px;
       top: 149px;
       box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
-      &:hover {
+      &:hover,
+      &:focus {
         background: ${colors.color.default};
       }
     `}
@@ -76,6 +77,10 @@ export const BtnDefault = styled.button`
       top: 246px;
       color: #3d5afe;
       box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+      &:hover,
+      &:focus {
+        background: #fff;
+      }
     `}
     
     ${(props) =>
@@ -92,7 +97,11 @@ export const BtnDefault = styled.button`
       top: 351px;
       color: #3d5afe;
       background: rgba(41, 98, 255, 0.1);
-      box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+
+      &:hover,
+      &:focus {
+        background: #fff;
+      }
     `}
 
     ${(props) =>
@@ -232,6 +241,10 @@ export const BtnDefault = styled.button`
 
       background: #aeaeae;
       box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+      &:hover,
+      &:focus {
+        background: ${colors.color.default};
+      }
     `}
     ${(props) =>
     props.darkBlueDefault &&
