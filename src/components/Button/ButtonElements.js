@@ -121,6 +121,10 @@ export const BtnDefault = styled.button`
       top: 558px;
       background: #e0e0e0;
       box-shadow: rgb(51 51 51 / 20%) 0px 2px 3px;
+      &:hover,
+      &:focus {
+        cursor: not-allowed;
+      }
     `}
     ${(props) =>
     props.disabledText &&
@@ -128,6 +132,10 @@ export const BtnDefault = styled.button`
       left: 558px;
       top: 566px;
       color: #9e9e9e;
+      &:hover,
+      &:focus {
+        cursor: not-allowed;
+      }
     `}
     ${(props) =>
     props.groceryStore &&
