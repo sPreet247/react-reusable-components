@@ -2,8 +2,8 @@ import { NavLink, Title } from './SideNavBarElements';
 function SideNavBar() {
   return (
     <>
+      <Title>Devchallenges.io</Title>
       <nav>
-        <Title>Devchallenges.io</Title>
         <NavLink colors>Colors</NavLink>
         <NavLink typography>Typography</NavLink>
         <NavLink spaces>Spaces</NavLink>
